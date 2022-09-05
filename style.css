@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Copperplate;
+    background: url("bathfishtum.jpg");
+    background-size:  contain;
+    background-repeat: no-repeat;;
+    background-position: center;
+    height: 100vh;
+    color: rgb(233, 159, 99);
+}
+img{
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 40%;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 1.8rem 0;
+    font-size: 2.5rem;
+    color: rgb(204, 169, 169);
+    font-family: Copperplate;
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    /* background: rgba(57, 68, 67, 0.45); */
+    cursor: default;
+    border-radius: 1rem;
+    text-align: center;
+    
+}
+#question{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem rgb(241, 208, 115);
+    width: 15rem;
+    background: rgba(231, 162, 116, 0.74);
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(8, 4, 4);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 1.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(236, 186, 139);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 3rem auto;
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    color: rgba(253, 231, 228, 0.98);
+    background: rgba(91, 94, 65, 0.82);
+    font-family: Copperplate;
+    margin-bottom: 1rem;
+
+}
+button:active{
+    background: lavender;
+}
+
+
